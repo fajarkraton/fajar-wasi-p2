@@ -1,0 +1,20 @@
+[package]
+name = "fajar-wasi-p2"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.87"
+authors = ["Muhamad Fajar Putranto <fajar@pajak.com>"]
+description = "WASI Preview 2 (Component Model) for Fajar Lang — WIT parser, component composition, filesystem/sockets/HTTP/streams resources. Extracted from fajar-lang per Compass §5.1."
+license = "Apache-2.0"
+repository = "https://github.com/fajarkraton/fajar-wasi-p2"
+readme = "README.md"
+keywords = ["wasi", "component-model", "wit", "wasm", "fajar-lang"]
+categories = ["compilers", "development-tools::ffi", "wasm"]
+
+[lib]
+name = "fajar_wasi_p2"
+path = "src/lib.rs"
+
+[dependencies]
+
+[dev-dependencies]
